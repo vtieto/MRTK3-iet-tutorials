@@ -21,7 +21,7 @@ MonoBehaviour:
   m_TargetGameObject:
     m_SceneObjectReference:
       m_SceneGuid: 415ef1d07dbe55e44ada8708cf29e38c
-      m_GameObjectGuid: 86cfdbf0-8884-4c3a-b275-1d99a845ce96
+      m_GameObjectGuid: 566e418b-13f6-4740-bddb-0f3703256cc5
       m_SerializedComponentType:
         m_TypeName: 
       m_ComponentIndex: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -126,23 +126,24 @@ MonoBehaviour:
       Title:
         m_Untranslated: Dialog Script
       Text:
-        m_Untranslated: "We\u2019ll be using a dialog box as confirmation to reset
-          the aquarium scene. If a user presses a <b>Reset</b> button, a dialog will
-          appear confirming the action. If the user selects <b>Yes</b>, then the
-          scene resets, which removes any aquarium objects added to the scene. We\u2019re
-          able to achieve this with the help of a script that leverages the MRTK
-          dialog prefabs.\n\nThe <b>ResetScene</b> script provided is an example
-          of how such logic could be written. You\u2019re welcome to repurpose this
-          script for your own projects. There are three functions within the script:\n\n\u2022
-          <b>DialogPrefabMedium</b>: gets and sets the dialog prefab\n\u2022 <b>ResetSceneDialog</b>:
-          configures the text and determines which buttons appear on the dialog prefab\n\u2022
-          <b>OnClosedDialogEvent</b>: executes the action that occurs when the user
-          selects <b>Yes</b> \n\nFor our dialog prefab, we\u2019ll provide text that
-          confirms whether the user wants to reset the scene in addition to a Yes
-          and No button option. The logic within the <b>OnClosedDialog</b> event
-          is a conditional statement that states if the user selects the <b>Yes</b>
-          button. <i>SceneManager.LoadScene</i> is used to reload or reset the scene.
-          Let\u2019s add the <b>ResetScene</b> script to the <b>Dialog</b> GameObject.\n"
+        m_Untranslated: "We\u2019ll be using a dialog box to reset the aquarium scene.
+          If a user presses the <b>Reset</b> button in the \"Add aquarium animals\"
+          bar, a dialog will appear that asks the user to confirm the action. If
+          the user selects <b>Yes</b>, then the scene resets, which removes any aquarium
+          animals added to the scene. We achieve this with the help of a script that
+          leverages the MRTK dialog prefabs.\n\nThe <b>ResetScene</b> script in this
+          project is an example of how such logic could be written. You\u2019re welcome
+          to repurpose this script for your own projects. There are three functions
+          within the script:\n\n\u2022 <b>DialogPrefabMedium</b>: gets and sets the
+          dialog prefab\n\u2022 <b>ResetSceneDialog</b>: configures the text and
+          determines which buttons appear on the dialog prefab\n\u2022 <b>OnClosedDialogEvent</b>:
+          executes the action that occurs when the user selects <b>Yes</b> \n\nFor
+          our dialog prefab, we\u2019ll provide text that confirms whether the user
+          wants to reset the scene as well as \"Yes\" and \"No\" button options.
+          The logic within the <b>OnClosedDialog</b> event is a conditional statement
+          which determines that if the user selects the <b>Yes</b> button, <i>SceneManager.LoadScene</i>
+          is used to reload or reset the scene. Let\u2019s add the <b>ResetScene</b>
+          script to the <b>Dialog</b> GameObject.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

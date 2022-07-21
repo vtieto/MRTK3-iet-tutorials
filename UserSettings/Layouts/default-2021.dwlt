@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -34,17 +34,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TutorialWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 956
+    x: 1429
     y: 0
-    width: 369
-    height: 598
-  m_MinSize: {x: 275, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 491
+    height: 947
+  m_MinSize: {x: 301, y: 321}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -60,17 +60,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TutorialWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1325
+    x: 655
     y: 0
-    width: 595
-    height: 598
-  m_MinSize: {x: 301, y: 321}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 774
+    height: 676
+  m_MinSize: {x: 277, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -93,10 +93,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 239
-    height: 598
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 384
+    height: 676
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -117,18 +117,17 @@ MonoBehaviour:
   m_Children:
   - {fileID: 4}
   - {fileID: 12}
-  - {fileID: 2}
   - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 598
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 32384, y: 8096}
+    width: 1429
+    height: 676
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 112
+  controlID: 101
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,11 +144,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 598
-    width: 1920
-    height: 349
-  m_MinSize: {x: 230, y: 271}
-  m_MaxSize: {x: 10000, y: 10021}
+    y: 676
+    width: 1429
+    height: 271
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -220,6 +219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 11}
+  - {fileID: 2}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 110
+  controlID: 80
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,12 +270,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1429
     height: 947
-  m_MinSize: {x: 400, y: 200}
-  m_MaxSize: {x: 32384, y: 16192}
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 111
+  controlID: 100
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,12 +291,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 239
+    x: 384
     y: 0
-    width: 717
-    height: 598
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 271
+    height: 676
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -304,47 +304,6 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: -964
-    y: 73
-    width: 367
-    height: 577
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: -151
-    m_ControlHash: 1412526313
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
---- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -364,10 +323,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -595
+    x: -491
     y: 73
-    width: 594
-    height: 577
+    width: 490
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -379,13 +338,13 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 87c0f98301cd06c4d86809dcf446d606, type: 3}
+    m_Image: {fileID: 2800000, guid: 19db408ed0e606e478082323c660ca91, type: 3}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
       m_Items: []
     m_MaskingSettings:
-      m_MaskingEnabled: 1
+      m_MaskingEnabled: 0
       m_UnmaskedViews: []
     m_Summary: 
     m_Description: 
@@ -394,13 +353,15 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Button
+      m_Untranslated: Dialog
     Text:
-      m_Untranslated: "A button gives the user a way to trigger an immediate action.
-        In this tutorial, you'll explore Button prefab properties while adding a
-        button that spawns a sea animal in the aquarium.\n\n\n<b>Learning Objectives</b>:\n\n\u2022
-        Change a Button prefab's text\n\u2022 Create an <b>On Clicked</b> event for
-        a Button prefab\n\nLet's get started!"
+      m_Untranslated: "<b>Dialog</b> controls are UI overlays that provide contextual
+        app information and often request some action from the user. In this tutorial,
+        you'll configure a <b>Dialog</b> prefab that lets the user reset the aquarium
+        scene by clearing spawned objects.\n \n<b>Learning Objectives:</b>\n\n\u2022
+        Understand the script logic for dialog functionality\n\u2022 Configure an
+        \"On Clicked\" event that causes a dialog prefab to instantiate\n\nLet\u2019s
+        get started!\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -421,14 +382,174 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 87c0f98301cd06c4d86809dcf446d606, type: 3}
+    m_Image: {fileID: 2800000, guid: 19db408ed0e606e478082323c660ca91, type: 3}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
       m_Items: []
     m_MaskingSettings:
-      m_MaskingEnabled: 1
+      m_MaskingEnabled: 0
       m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.AddComponent.AddComponentWindow, UnityEditor.CoreModule,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Dialog Script
+    Text:
+      m_Untranslated: "We\u2019ll be using a dialog box to reset the aquarium scene.
+        If a user presses the <b>Reset</b> button in the \"Add aquarium animals\"
+        bar, a dialog will appear that asks the user to confirm the action. If the
+        user selects <b>Yes</b>, then the scene resets, which removes any aquarium
+        animals added to the scene. We achieve this with the help of a script that
+        leverages the MRTK dialog prefabs.\n\nThe <b>ResetScene</b> script in this
+        project is an example of how such logic could be written. You\u2019re welcome
+        to repurpose this script for your own projects. There are three functions
+        within the script:\n\n\u2022 <b>DialogPrefabMedium</b>: gets and sets the
+        dialog prefab\n\u2022 <b>ResetSceneDialog</b>: configures the text and determines
+        which buttons appear on the dialog prefab\n\u2022 <b>OnClosedDialogEvent</b>:
+        executes the action that occurs when the user selects <b>Yes</b> \n\nFor
+        our dialog prefab, we\u2019ll provide text that confirms whether the user
+        wants to reset the scene as well as \"Yes\" and \"No\" button options. The
+        logic within the <b>OnClosedDialog</b> event is a conditional statement which
+        determines that if the user selects the <b>Yes</b> button, <i>SceneManager.LoadScene</i>
+        is used to reload or reset the scene. Let\u2019s add the <b>ResetScene</b>
+        script to the <b>Dialog</b> GameObject.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Dialog</b>
+        GameObject.
+
+
+        <b>2.</b> In the <b>Inspector</b>, add the <b>ResetScene</b>
+        script as a component.'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.ComponentAddedCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: -688855873481330685, guid: bab8635bb4f2ce443b6df5debdd94f01, type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 19db408ed0e606e478082323c660ca91, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
       - m_SelectorType: 1
         m_ViewType:
           m_TypeName: 
@@ -444,277 +565,6 @@ MonoBehaviour:
         m_ViewType:
           m_TypeName: 
         m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Add a Button to the Scene
-    Text:
-      m_Untranslated: "We provide a variety of both canvas-based and non-canvas-based
-        button prefabs within the <b>MRTK UX Components</b> package. The underlying
-        interaction/state scripts are the same. However, the visual layers are different.
-        \n\nFor example, canvas-based buttons use Canvas Renderers and images whereas
-        non-Canvas-based buttons use MeshRenderers/SpriteRenders. \n\nBoth types
-        of buttons use the <b>PressableButton</b> script which includes behaviors
-        specific to buttons. Let's add a non-Canvas-based button with text that'll
-        be used to spawn a sea turtle. "
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: '<b>1.</b> In the <b>Project</b> panel, navigate to <b>Packages>
-        MRTK UX Components > Buttons > 80x32 </b>and drag the <b>PressableButton_80x32mm-SingleLineText</b>
-        prefab to the scene.
-
-
-        <b>2.</b> In the <b>Hierarchy</b>, select
-        the <b>PressableButton_80x32mm-SingleLineText</b> GameObject.
-
-
-        <b>3.</b>
-        In the <b>Inspector</b>, rename the GameObject <b>SeaTurtleButton</b>.
-
-
-        <b>4.</b>Within
-        the <b>Transform</b> properties, change the <b>Position</b> to <b>0, -0.11, 
-        -10.1</b>.'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: -2328659192850477272, guid: ef9068ce06a65e841aad9cb6dd43c95c, type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 87c0f98301cd06c4d86809dcf446d606, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 1
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Change the Button Text
-    Text:
-      m_Untranslated: The button prefab includes a <b>TextMeshPro</b> GameObject
-        which displays the button's text. You can change the text and modify its
-        font properties within the <b>TextMeshPro</b> GameObject. Let's change the
-        text to display <b>Sea Turtle</b>.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>SeaTurtleButton</b>
-        GameObject.
-
-
-        <b>2.</b> Expand the <b>SeaTurtleButton</b> GameObject
-        and select <b>CompressableButtonVisuals > IconAndText > TextMeshPro</b>.
-
-
-        <b>3.</b>
-        In the <b>Inspector</b>, navigate to the <b>TextMeshPro-Text</b> component.
-
-
-        <b>4.</b>
-        Within the <b>Text Input</b> property, enter <b>Sea Turtle</b> into the text
-        box.
-
-
-        <b>5.</b> Change the <b>Font Size</b> property to <b>0.1</b>
-        to increase the font size. '
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 87c0f98301cd06c4d86809dcf446d606, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 1
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
           m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
         m_AlternateEditorWindowTypes:
@@ -740,16 +590,13 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Create an On Clicked Event
+      m_Untranslated: Assign the Dialog Prefab
     Text:
-      m_Untranslated: "<b>On Clicked</b> events configure the action that occurs
-        once a button is clicked. The event requires a GameObject receiving the event
-        as well as a function to execute. You could trigger a variety of actions
-        such as making a GameObject active, playing a sound, changing a scene, spawning
-        objects, plus more! \n\nThe <b>Spawner</b> GameObject contains a <b>SeaObjectSpawner</b>
-        script that spawns either a coral, rock, sea turtle, seahorse, or dolphin
-        into the scene.  Let's add an <b>On Clicked</b> event that'll execute the
-        function to spawn a sea turtle into the aquarium."
+      m_Untranslated: "In this project there dialog prefabs available in three sizes:\n\n\u2022
+        168x88 mm (small)\n\u2022 168x108 mm (medium)\n\u2022 168x140 mm (large)\n\nWhen
+        selecting a dialog prefab, ensure that you\u2019re choosing a size appropriate
+        for your app. Let\u2019s assign a large dialog prefab that will instantiate
+        when the user selects the button to reset the scene.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -768,26 +615,32 @@ MonoBehaviour:
     Title:
       m_Untranslated: 
     Text:
-      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>SeaTurtleButton</b>
+      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Dialog</b>
         GameObject.
 
 
         <b>2.</b> In the <b>Inspector</b>, navigate to the
-        <b>Pressable Button</b> component.
+        <b>Reset Scene</b> component.
 
 
-        <b>3.</b> Within the <b>On Clicked</b>
-        property, select the <b>+</b> to create a new event.
+        <b>3.</b> Click the lock icon located
+        just above the right corner of the <b>Inspector</b> panel to "lock" the current
+        view in the <b>Inspector</b>.
 
 
-        <b>4.</b>
-        In the new event, drag the <b>Spawner</b> from the <b>Hierarchy</b> and drop
-        it on the field for the GameObject receiving the event.
+        <b>4.</b> In the <b>Project</b> panel,
+        navigate to <b>Packages > MRTK UX Components > Dialogs</b>.
 
 
-        <b>5.</b>
-        In the new event, select the <b>function</b> drop-down (it currently displays
-        "No Function") and then select <b>SeaObjectSpawner > SpawnSeaTurtle</b'
+        <b>5.
+        </b> Click and hold on the <b>Dialog_168x108mm</b> prefab, and then drag
+        it to the <b>Inspector</b> and drop it into the <b>Dialog Prefab</b> field
+        within the <b>ResetScene</b> component.
+
+
+        <b>6.</b> Click the lock
+        icon located just above the right corner of the <b>Inspector</b> panel to
+        "unlock" the <b>Inspector</b>.'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -808,13 +661,130 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 87c0f98301cd06c4d86809dcf446d606, type: 3}
+    m_Image: {fileID: 2800000, guid: 19db408ed0e606e478082323c660ca91, type: 3}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
       m_Items: []
     m_MaskingSettings:
-      m_MaskingEnabled: 1
+      m_MaskingEnabled: 0
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Add the "On Clicked" Event
+    Text:
+      m_Untranslated: "<b>On Clicked</b> events configure the actions that occur
+        when the user clicks a button. An  event requires a GameObject that will
+        receive the event as well as a function that will execute. You could trigger
+        a variety of actions, such as making a GameObject active, playing a sound,
+        changing a scene, spawning objects, plus more! Let\u2019s add an <b>On Clicked</b>
+        event to the <b>Reset</b> button that will execute the <i>ResetSceneDialog</i>
+        function contained within the <i>ResetScene</i> script."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select the <b>AnimalBar</b>
+        GameObject.\n \n<b>2.</b> Still in the <b>Hierarchy</b>, expand <b>AnimalBar</b>
+        to display its child object <b>Buttons</b>, and then expand <b>Buttons</b>
+        and select its child object <b>Reset</b>.\n \n<b>3.</b>  In the <b>Inspector</b>,
+        navigate to the <b>Pressable Button</b> component.\n\n<b>4.</b> In the <b>On
+        Clicked</b> section, select the plus sign (<b>+</b>) to create a new event.\n\n<b>5.</b>
+        In the <b>Hierarchy</b>, click and hold on the <b>Dialog</b> game object,
+        and then drag it to the <b>Inspector</b> and drop it in the <b>On Clicked</b>
+        field that displays \"<b>None (Object)</b>.\"\n\n<b>6.</b> Select the <b>On
+        Clicked</b> drop-down that displays \"<b>No Function</b>\" and then select
+        <b>ResetScene > ResetSceneDialog ()</b>."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 19db408ed0e606e478082323c660ca91, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
       m_UnmaskedViews:
       - m_SelectorType: 1
         m_ViewType:
@@ -883,8 +853,9 @@ MonoBehaviour:
     Title:
       m_Untranslated: Try it Out
     Text:
-      m_Untranslated: Now that the <b>SeaTurtleButton</b> is configured, when the
-        button is clicked, the <b>SeaTurtle</b> prefab will appear.
+      m_Untranslated: Now that the <b>Reset</b> button is configured with an <b>On
+        Clicked</b> event that will reset the scene, you can click the button to
+        reset the aquarium to its original state.
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -907,15 +878,28 @@ MonoBehaviour:
 
 
         <b>2.</b>
-        Using input simulation, click the <b>Sea Turtle</b> button to spawn a sea
-        turtle. Repeated button presses will spawn another sea turtle in the same
-        spawn location. You may want to move the first seat turtle before you spawn
-        the second one so you can see them both in different locations. You can grab
-        the sea turtle and move it around in the scene as well.
+        Using input simulation, click the buttons for each of the aquarium animals
+        to spawn them. You can also  drag the animals around in the scene to reposition
+        them.
 
 
-        <b>3.</b>
-        Once complete, press Play to exit Play Mode.'
+        If you need  input simulation reminders, the instructions
+        are <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref">available
+        on the MRTK3 documentation website</a> and are also contained in a text file
+        in the Project > Assets > Tutorials folder--the file name is "Input Simulation
+        Quick Reference.txt."
+
+
+        <b>3.</b> When you''ve finished adding and
+        moving the animals, press the <b>Reset</b> button.
+
+
+        <b>4.</b> In
+        the dialog box that appears, select <b>Yes</b> to confirm resetting the scene
+        or <b>No</b> to cancel.
+
+
+        <b>5.</b> Press Play to exit Play Mode.'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -925,7 +909,7 @@ MonoBehaviour:
       - Type:
           m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
             Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: -4216312547305533543, guid: d3a6323d8a9a2334c8f084d683b1175f, type: 2}
+        Criterion: {fileID: 444646674496492689, guid: 77140bb293b1d784aa2b98bc23ded56e, type: 2}
     m_MaskingSettings:
       m_MaskingEnabled: 0
       m_UnmaskedViews: []
@@ -940,13 +924,13 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 87c0f98301cd06c4d86809dcf446d606, type: 3}
+    m_Image: {fileID: 2800000, guid: 19db408ed0e606e478082323c660ca91, type: 3}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
       m_Items: []
     m_MaskingSettings:
-      m_MaskingEnabled: 1
+      m_MaskingEnabled: 0
       m_UnmaskedViews: []
     m_Summary: 
     m_Description: 
@@ -957,11 +941,10 @@ MonoBehaviour:
     Title:
       m_Untranslated: Summary
     Text:
-      m_Untranslated: In this tutorial, you learned how to configure a button prefab
-        to trigger an action. You can further modify the button prefab child GameObjects
-        and their attached <b>Pressable Button</b> scripts to customize the look
-        and behavior of the buttons. "On Clicked" events can also be configured so
-        that actions occur when a user clicks the button.
+      m_Untranslated: In this tutorial, you learned how to configure a <b>Dialog</b>
+        prefab for use with an <b>On Clicked</b> event. You can customize your own
+        <b>Dialog</b> prefab to display the input button(s) of your choice and even
+        configure the <b>On Clicked</b> event with a function specific to your app.
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -980,7 +963,7 @@ MonoBehaviour:
     Title:
       m_Untranslated: 
     Text:
-      m_Untranslated: 'Select <b>Tutorial: Volumetric UI</b> to continue, or <b>Done</b>
+      m_Untranslated: 'Select <b>Tutorial: Theming</b> to continue, or <b>Done</b>
         to return to the tutorial overview.'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
@@ -1000,8 +983,8 @@ MonoBehaviour:
     Title:
       m_Untranslated: 
     Text:
-      m_Untranslated: 'Tutorial: Volumetric UI'
-    m_Tutorial: {fileID: 11400000, guid: a1fc1a450fcd21f4bb9b863d3a200297, type: 2}
+      m_Untranslated: 'Tutorial: Theming'
+    m_Tutorial: {fileID: 11400000, guid: 7775ca6ac3294984b8753504751e3ba3, type: 2}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
@@ -1021,8 +1004,49 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f704ff3a95d76394086988b5bd7bee45, type: 2}
   m_ChildContainers: []
   m_MaskingEnabled: 1
-  m_FarthestPageCompleted: 0
+  m_FarthestPageCompleted: 2
   m_PlayModeChanging: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1265
+    y: 73
+    width: 772
+    height: 655
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 151
+    m_ControlHash: 1412526313
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1043,10 +1067,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1920
-    y: 734
-    width: 1920
-    height: 265
+    x: 0
+    y: 766.4
+    width: 1575
+    height: 297.00006
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1071,10 +1095,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 359
+    x: -1536
     y: 73
-    width: 913
-    height: 640
+    width: 748
+    height: 655
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1085,7 +1109,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 913, y: 619}
+  m_TargetSize: {x: 748, y: 634}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1100,10 +1124,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -456.5
-    m_HBaseRangeMax: 456.5
-    m_VBaseRangeMin: -309.5
-    m_VBaseRangeMax: 309.5
+    m_HBaseRangeMin: -374
+    m_HBaseRangeMax: 374
+    m_VBaseRangeMin: -317
+    m_VBaseRangeMax: 317
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1121,23 +1145,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 913
-      height: 619
+      width: 748
+      height: 634
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 456.5, y: 309.5}
+    m_Translation: {x: 374, y: 317}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -456.5
-      y: -309.5
-      width: 913
-      height: 619
+      x: -374
+      y: -317
+      width: 748
+      height: 634
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 913, y: 640}
+  m_LastWindowPixelSize: {x: 748, y: 655}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1165,8 +1189,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1920
     y: 73
-    width: 238
-    height: 577
+    width: 383
+    height: 655
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1174,9 +1198,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 96720000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 28f0ffff36f0ffff44f0ffff68f0ffff6cf0ffff78f0ffff7cf0ffff8ef0ffff9af0ffff
+      m_SelectedIDs: b6f3ffff
+      m_LastClickedID: -3146
+      m_ExpandedIDs: 8ef5ffff96f5ffffb0f5ffff30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1192,7 +1216,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1221,9 +1245,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -1920
-    y: 671
-    width: 1920
-    height: 328
+    y: 749
+    width: 1428
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1241,22 +1265,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tutorials/BoundsControl
+    - Packages/com.microsoft.mrtk.uxcomponents/Dialogs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Tutorials/BoundsControl
+  - Packages/com.microsoft.mrtk.uxcomponents/Dialogs
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\IET4\MRTK3-iet-tutorials
+  m_LastProjectPath: C:\MRTK3 IET from April with my updates 072122\MRTK3-April\MRTK3-Vinnie
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 303}
-    m_SelectedIDs: 84730000
-    m_LastClickedID: 29572
-    m_ExpandedIDs: 00000000187300001a730000b47300001875000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 486}
+    m_SelectedIDs: a4720000
+    m_LastClickedID: 29348
+    m_ExpandedIDs: 00000000e8710000ea7100007272000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1284,7 +1308,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 112}
     m_SelectedIDs: a0730000
     m_LastClickedID: 29600
-    m_ExpandedIDs: 00000000187300001a730000
+    m_ExpandedIDs: 00000000e8710000ea710000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1312,21 +1336,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000046710000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: ObjectManipulator
-      m_OriginalName: ObjectManipulator
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 29580
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_CreateAssetUtility:
@@ -1360,10 +1384,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1681
+    x: -1536
     y: 73
-    width: 715
-    height: 577
+    width: 269
+    height: 655
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1373,8 +1397,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -101, y: -26}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: -100, y: -25.599976}
+      snapOffsetDelta: {x: -1, y: -0.4000244}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -1395,8 +1419,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffset: {x: 0, y: 24.8}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
       index: 0
@@ -1407,7 +1431,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 1
       id: unity-search-toolbar
       index: 1
@@ -1417,8 +1441,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffset: {x: 0, y: 25.599998}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
       index: 0
@@ -1428,9 +1452,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -111, y: 26}
+      snapOffset: {x: 67.5, y: 86}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 0
       id: Orientation
       index: 0
       layout: 4
@@ -1440,7 +1464,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Light Settings
       index: 0
@@ -1451,7 +1475,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Camera
       index: 1
@@ -1462,7 +1486,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Constraints
       index: 2
@@ -1473,7 +1497,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Collisions
       index: 3
@@ -1484,7 +1508,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Navmesh Display
       index: 4
@@ -1495,7 +1519,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Agent Display
       index: 5
@@ -1506,7 +1530,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Obstacle Display
       index: 6
@@ -1517,7 +1541,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Occlusion Culling
       index: 7
@@ -1528,7 +1552,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Physics Debugger
       index: 8
@@ -1539,7 +1563,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Scene Visibility
       index: 9
@@ -1550,24 +1574,24 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
       index: 10
       layout: 4
   m_WindowGUID: fe7aee55c9eeee945802205d4cff8172
-  m_Gizmos: 1
-  m_OverrideSceneCullingMask: 0
-  m_SceneIsLit: 0
+  m_Gizmos: 0
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 0
-  m_isRotationLocked: 1
+  m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: -0.00033853762}
+    m_Target: {x: -0.04070718, y: -0.057756968, z: 1.1996615}
     speed: 2
-    m_Value: {x: -0.2502516, y: 4.016217, z: -5.726798}
+    m_Value: {x: -0.04070718, y: -0.057756968, z: 1.1996615}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1579,12 +1603,12 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
-    showSkybox: 0
+    showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
-    m_FxEnabled: 1
+    m_FxEnabled: 0
   m_Grid:
     xGrid:
       m_Fade:
@@ -1596,17 +1620,17 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1618,13 +1642,13 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 23735.639
+    m_Target: 0.8583809
     speed: 2
-    m_Value: 5.6454244
+    m_Value: 0.8583809
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5

@@ -14,35 +14,35 @@ public class SeaObjectSpawner : MonoBehaviour
     // Start is called before the first frame update
     public void SpawnCoral()
     {
-        Vector3 position = new Vector3(0, -0.79f, -3.66f);
+        Vector3 position = new Vector3(0, -0.79f, 2);
         Instantiate(coralPrefab, position, Quaternion.identity, parent);
     }
 
     public void SpawnRock()
     {
-        Vector3 position = new Vector3(0, -0.7f, -3.3f);
+        Vector3 position = new Vector3(0, -0.7f, 3);
         Instantiate(rockPrefab, position, Quaternion.Euler(-89.98f, 170, 180), parent);
     }
 
     public void SpawnSeaTurtle()
     {
-        Vector3 position = new Vector3(0, 0.54f, -7.68f);
+        Vector3 position = new Vector3(0, .4f, 2);
         GameObject seaTurtle = Instantiate(seaTurtlePrefab, position, Quaternion.identity, parent) as GameObject;
-        seaTurtle.transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
+        seaTurtle.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
     }
 
     public void SpawnDolphin()
     {
-        Vector3 position = new Vector3(0, .12f, -7);
+        Vector3 position = new Vector3(0, .4f, 2);
         GameObject dolphin = Instantiate(dolphinPrefab, position, Quaternion.Euler(0, -105, 0), parent) as GameObject;
-        dolphin.transform.localScale = new Vector3(0.35f, 0.35f, 0.35f);
+        dolphin.transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
     }
 
     public void SpawnSeahorse()
     {
-        Vector3 position = new Vector3(0.1f, .5f, -8);
+        Vector3 position = new Vector3(0, .4f, 2);
         GameObject seahorse = Instantiate(seahorsePrefab, position, Quaternion.Euler(0, 50, 0), parent) as GameObject;
-        seahorse.transform.localScale = new Vector3(5, 5, 5);
+        seahorse.transform.localScale = new Vector3(4.5f, 4.5f, 4.5f);
     }
 
 }

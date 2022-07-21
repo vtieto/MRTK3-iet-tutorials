@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TutorialTitle:
     m_Untranslated: Theming
-  m_TutorialTitle: 
   m_ProgressTrackingEnabled: 0
   m_LessonId: 
   m_Version: 0
-  m_Scene: {fileID: 102900000, guid: b68af02352238384c9c11df9e3815057, type: 3}
+  m_SceneManagementBehavior: 0
+  m_Scenes:
+  - {fileID: 102900000, guid: b68af02352238384c9c11df9e3815057, type: 3}
   m_DefaultSceneCameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -39,6 +40,7 @@ MonoBehaviour:
   m_Pages:
     m_Items:
     - {fileID: 11400000, guid: 37779c3ff07b169448b41ce688feda18, type: 2}
+    - {fileID: 11400000, guid: e0f602bb24b21f745be8b5b75926e8f4, type: 2}
     - {fileID: 11400000, guid: e68cbcdb5245d104dbacc14243400a5d, type: 2}
     - {fileID: 11400000, guid: 0703baffbae839043b1d34dfea4bac7b, type: 2}
     - {fileID: 11400000, guid: 51d4aeb068bb04f4f978c2bdc72de3f9, type: 2}
@@ -65,3 +67,5 @@ MonoBehaviour:
   Quit:
     m_PersistentCalls:
       m_Calls: []
+  m_Scene: {fileID: 0}
+  m_TutorialTitle: 

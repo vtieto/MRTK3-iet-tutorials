@@ -45,7 +45,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -151,7 +151,7 @@ MonoBehaviour:
         m_Untranslated: Try it Out
       Text:
         m_Untranslated: "Currently, all manipulation types and interactions for the
-          <b>Coral</b> GameObject are configured . This includes the ability to move,
+          <b>Coral</b> GameObject are configured. This includes the ability to move,
           rotate, and manipulate the GameObject with more than one hand. Using input
           simulation, try manipulating the <b>Coral</b> in Play Mode. \n\n<b>Note:
           Scaling is not supported with input simulation.</b>"

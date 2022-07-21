@@ -60,7 +60,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -166,8 +166,8 @@ MonoBehaviour:
 
 
           <b>4.</b>Within
-          the <b>Transform</b> properties, change the <b>Position</b> to <b>0, -0.11, 
-          -10.1</b>.'
+          the <b>Transform</b> properties, change the <b>Position</b> to <b>0, -.04, 
+          .45</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

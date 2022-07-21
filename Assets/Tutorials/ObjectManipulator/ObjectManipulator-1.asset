@@ -21,7 +21,7 @@ MonoBehaviour:
   m_TargetGameObject:
     m_SceneObjectReference:
       m_SceneGuid: e912cf7e86aeb024daf0de095189f65a
-      m_GameObjectGuid: 1b1d7666-6568-4d75-8d02-17cb10d9247a
+      m_GameObjectGuid: 258c09c8-e6d7-4f26-8cf1-800d4cc7feec
       m_SerializedComponentType:
         m_TypeName: 
       m_ComponentIndex: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:

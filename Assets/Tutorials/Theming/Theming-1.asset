@@ -35,11 +35,10 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add Symbol in Player Settings
+        m_Untranslated: Switch Build Platform
       Text:
-        m_Untranslated: To enable theming for MRTK UX components, the <b>MRTK_COREUX_DATABINDING_THEMING_ENABLED</b>
-          symbol must be defined in <b>Player Settings</b>. This symbol ensures zero
-          performance impact when theming is not needed.
+        m_Untranslated: Before you proceed, you must switch the build platform to
+          Universal Windows Platform.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -58,24 +57,19 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: '<b>1.</b> On the menu bar, navigate to <b>Edit > Project
-          Settings > Player > Windows tab > Other Settings</b>.
+        m_Untranslated: '<b>1.</b> On the menu bar, navigate to <b>File > Build Settings</b>.
 
 
           <b>2.</b>
-          Within <b>Other Settings</b>, navigate to <b>Script Compilation</b>.
+          Within <b>Build Settings</b>, select <b>Universal Windows Platform</b>.
 
 
           <b>3.</b>
-          Within <b>Script Compilation</b>, select the <b>+</b> icon to add a new
-          symbol.
+          On the bottom right side of the window, select <b>Switch Build Platform</b>.
 
 
-          <b>4.</b> Enter <b>MRTK_UX_DATABINDING_THEMING_ENABLED</b>
-          for the symbol.
-
-
-          <b>5.</b> Close the <b>Project Settings</b>
+          <b>4.
+          After the platform is switched, </b> close the <b>Project Settings</b>
           window.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

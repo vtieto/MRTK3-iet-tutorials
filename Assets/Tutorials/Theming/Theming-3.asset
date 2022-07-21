@@ -26,7 +26,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -57,20 +57,20 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Style Sheet
+        m_Untranslated: Theme Profile
       Text:
-        m_Untranslated: "A stylesheet is used to assign the appropriate font styles
-          for text within your scene. Since MRTK leverages Text Mesh Pro, a Text
-          Mesh Pro stylesheet is required for font styles.\n\nYou can create a new
-          stylesheet within the <b>Project</b> panel. To do so, click the <b>+</b>
-          icon and select <b>TextMeshPro > Stylesheet</b>.\n\nFor this tutorial,
-          you\u2019ll be using a stylesheet that's already included in this project.
-          You can view the stylesheet in the <b>Project</b> panel by navigating to
-          <b>Assets > Stylesheets</b>.\n\n<i>Note</i>: It's not currently possible
-          to use Stylesheets to style the TextMeshPro <b>Normal</b> style. Any other
-          style that's included in TextMeshPro\u2019s <b>Default Style Sheet</b>
-          can be used. The example we provide uses <b>Body</b> to work around this
-          limitation."
+        m_Untranslated: "A theme profile is used to assign materials to the various
+          UX prefabs available within the Mixed Reality Toolkit. The profile itself
+          is categorized according to UX building block category (example: button,
+          slider, dialog, etc.). You can create and add your own materials to the
+          corresponding properties to create a UI that\u2019s best suited to your
+          aesthetic needs. Although we provide a field for every MRTK UX prefab,
+          you\u2019re only required to assign materials to those included in your
+          scene.\n\nYou can create a new profile within the <b>Project</b> panel.
+          To do so, click the <b>+</b> icon and select <b>MRTK > UX > Theme Profile</b>.\n\nFor
+          this tutorial, we\u2019ll be using sample themes that are already included
+          in this project. You can view these themes in the <b>Project</b> panel
+          by navigating to <b>Assets > Themes</b>."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

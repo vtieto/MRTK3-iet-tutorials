@@ -26,7 +26,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -99,7 +99,7 @@ MonoBehaviour:
           we call a \u201Cpointer\u201D) extending out from one of its fingers, and
           that there\u2019s a small circle at the end of the pointer.\n\n<b>1.</b>
           Move a hand around in the scene until the circle at the end of its pointer
-          is on top of the object you want to move.\n<b>2.</b> Press and hold the
+          is on top of the object you want to move.\n\n<b>2.</b> Press and hold the
           left mouse button\u2014this \u201Cgrabs\u201D the object--and then drag
           left/right/up/down. If you want to move the object towards you or away
           from you, while holding down the left mouse button, rotate the mouse scroll

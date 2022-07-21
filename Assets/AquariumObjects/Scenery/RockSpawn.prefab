@@ -30,8 +30,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7113722852022190336}
   m_LocalRotation: {x: 0.70453894, y: 0.061617754, z: 0.061639264, w: -0.7042931}
-  m_LocalPosition: {x: 0, y: -0.7, z: -3.3}
-  m_LocalScale: {x: 80, y: 80, z: 80}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 40, y: 40, z: 40}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -55,6 +56,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -308,6 +310,12 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   onClicked:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 1799257887016426677}

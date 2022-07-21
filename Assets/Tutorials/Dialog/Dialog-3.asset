@@ -26,7 +26,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -81,13 +81,13 @@ MonoBehaviour:
       Title:
         m_Untranslated: Add the "On Clicked" Event
       Text:
-        m_Untranslated: "<b>On Clicked</b> events configure the action that occurs
-          once a button is clicked. The event requires a GameObject that will receive
-          the event as well as a function that will execute. You could trigger a
-          variety of actions such as making a GameObject active, playing a sound,
+        m_Untranslated: "<b>On Clicked</b> events configure the actions that occur
+          when the user clicks a button. An  event requires a GameObject that will
+          receive the event as well as a function that will execute. You could trigger
+          a variety of actions, such as making a GameObject active, playing a sound,
           changing a scene, spawning objects, plus more! Let\u2019s add an <b>On
-          Clicked</b> event for the <b>Reset</b> button that will execute the <i>ResetSceneDialog</i>
-          within the <i>ResetScene</i> script."
+          Clicked</b> event to the <b>Reset</b> button that will execute the <i>ResetSceneDialog</i>
+          function contained within the <i>ResetScene</i> script."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -107,14 +107,16 @@ MonoBehaviour:
         m_Untranslated: 
       Text:
         m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select the <b>AnimalBar</b>
-          GameObject.\n \n<b>2.</b> Expand the <b>AnimalBar</b> GameObject and select
-          <b>Buttons > Reset</b>.\n \n<b>3.</b> In the <b>Inspector</b>, navigate
-          to the <b>Pressable Button</b> component.\n\n<b>4.</b> Within the <b>On
-          Clicked</b> property, select the <b>+</b> to create a new event.\n\n<b>5.</b>
-          In the new event, drag the <b>Dialog</b> GameObject into the field for
-          the GameObject receiving the event.\n\n<b>6.</b> In the new event, select
-          the <b>function</b> drop-down and then select <b>ResetScene > ResetSceneDialog
-          ()</b>."
+          GameObject.\n \n<b>2.</b> Still in the <b>Hierarchy</b>, expand <b>AnimalBar</b>
+          to display its child object <b>Buttons</b>, and then expand <b>Buttons</b>
+          and select its child object <b>Reset</b>.\n \n<b>3.</b>  In the <b>Inspector</b>,
+          navigate to the <b>Pressable Button</b> component.\n\n<b>4.</b> In the
+          <b>On Clicked</b> section, select the plus sign (<b>+</b>) to create a
+          new event.\n\n<b>5.</b> In the <b>Hierarchy</b>, click and hold on the
+          <b>Dialog</b> game object, and then drag it to the <b>Inspector</b> and
+          drop it in the <b>On Clicked</b> field that displays \"<b>None (Object)</b>.\"\n\n<b>6.</b>
+          Select the <b>On Clicked</b> drop-down that displays \"<b>No Function</b>\"
+          and then select <b>ResetScene > ResetSceneDialog ()</b>."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

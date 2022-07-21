@@ -26,7 +26,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews: []
       m_Summary: 
       m_Description: 
@@ -40,8 +40,8 @@ MonoBehaviour:
         m_Untranslated: In this tutorial, you learned how to move and rotate an object
           after adding  the <b>ObjectManipulator</b> script. You can further modify
           the properties to control how objects can be manipulated. Manipulation
-          events can also be added for actions to occur when a user manipulates the
-          GameObject.
+          events can also be added so that certain actions occur when a user manipulates
+          the GameObject.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

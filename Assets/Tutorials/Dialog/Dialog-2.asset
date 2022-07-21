@@ -26,7 +26,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -92,11 +92,12 @@ MonoBehaviour:
       Title:
         m_Untranslated: Assign the Dialog Prefab
       Text:
-        m_Untranslated: "We provide dialog prefabs in 3 sizes:\n\n\u2022 168x88 mm
-          (small)\n\u2022 168x108 mm (medium)\n\u2022 168x140 mm (large)\n\nWhen
-          selecting a dialog prefab, ensure that you\u2019re choosing a size appropriate
-          for your app. Let\u2019s assign a large dialog prefab to instantiate when
-          the user selects the button to reset the scene.\n"
+        m_Untranslated: "In this project there dialog prefabs available in three
+          sizes:\n\n\u2022 168x88 mm (small)\n\u2022 168x108 mm (medium)\n\u2022
+          168x140 mm (large)\n\nWhen selecting a dialog prefab, ensure that you\u2019re
+          choosing a size appropriate for your app. Let\u2019s assign a large dialog
+          prefab that will instantiate when the user selects the button to reset
+          the scene.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -123,10 +124,24 @@ MonoBehaviour:
           the <b>Reset Scene</b> component.
 
 
-          <b>3.</b> In the <b>Project
-          Panel</b>, navigate to <b>Packages > MRTK UX Components > Dialogs</b> and
-          drag the <b>Dialog_168x108mm</b> prefab into the <b>Dialog Prefab</b> field
-          within the <b>ResetScene</b> component.'
+          <b>3.</b> Click the lock
+          icon located just above the right corner of the <b>Inspector</b> panel
+          to "lock" the current view in the <b>Inspector</b>.
+
+
+          <b>4.</b>
+          In the <b>Project</b> panel, navigate to <b>Packages > MRTK UX Components
+          > Dialogs</b>.
+
+
+          <b>5. </b> Click and hold on the <b>Dialog_168x108mm</b>
+          prefab, and then drag it to the <b>Inspector</b> and drop it into the <b>Dialog
+          Prefab</b> field within the <b>ResetScene</b> component.
+
+
+          <b>6.</b>
+          Click the lock icon located just above the right corner of the <b>Inspector</b>
+          panel to "unlock" the <b>Inspector</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

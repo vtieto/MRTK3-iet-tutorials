@@ -26,7 +26,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -95,9 +95,9 @@ MonoBehaviour:
       Title:
         m_Untranslated: Try it Out
       Text:
-        m_Untranslated: "Now that the <b>Reset</b> button is configured with an <b>On
-          Clicked</b> event that\u2019ll reset the scene, you can click the button
-          to reset the aquarium to its original state."
+        m_Untranslated: Now that the <b>Reset</b> button is configured with an <b>On
+          Clicked</b> event that will reset the scene, you can click the button to
+          reset the aquarium to its original state.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -116,13 +116,33 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "<b>1.</b> Select Play to enter Play Mode.\n\n<b>2.</b> Using
-          input simulation, click each button to spawn an aquarium object. You can
-          move and place objects around in the scene as well.\n\n<b>3.</b> Once you\u2019ve
-          placed objects in the scene, press the <b>Reset</b> button.\n\n<b>4.</b>
-          When the dialog box appears, select <b>Yes</b> to confirm resetting the
-          scene or <b>No</b> to cancel.\n\n<b>5.</b> Once complete, press Play to
-          exit Play Mode."
+        m_Untranslated: '<b>1.</b> Select Play to enter Play Mode.
+
+
+          <b>2.</b>
+          Using input simulation, click the buttons for each of the aquarium animals
+          to spawn them. You can also  drag the animals around in the scene to reposition
+          them.
+
+
+          If you need  input simulation reminders, the instructions
+          are <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref">available
+          on the MRTK3 documentation website</a> and are also contained in a text
+          file in the Project > Assets > Tutorials folder--the file name is "Input
+          Simulation Quick Reference.txt."
+
+
+          <b>3.</b> When you''ve finished
+          adding and moving the animals, press the <b>Reset</b> button.
+
+
+          <b>4.</b>
+          In the dialog box that appears, select <b>Yes</b> to confirm resetting
+          the scene or <b>No</b> to cancel.
+
+
+          <b>5.</b> Press Play to exit
+          Play Mode.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
